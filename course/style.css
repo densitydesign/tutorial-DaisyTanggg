@@ -1,0 +1,16 @@
+g#nodes > g {
+    cursor: pointer; /* The hand cursor will show over group */
+}
+
+g#labels {
+    pointer-events: none; /* Interaction with labels is prevented */
+}
+
+#nodes g {
+    transition: 0.3s ease opacity;
+    cursor: pointer;
+}
+
+#labels text {
+    pointer-events: none; /* Prevents mouse events on the labels */
+}  
